@@ -1,0 +1,11 @@
+1 1 Michel 2 2/5/2001 Portugal 123543455 10023.23 fixed01
+
+2 2 nick 123 12/12/2000 sn 7788 500.00 saving
+
+2 1 Michel 12 12/12/2023 dkr 23 2323323.00 saving
+
+3 3 ondiago 233 12/12/2023 er 23 24.00 saving
+
+4 2 nick 321 12/12/2013 sn 778899 1000.00 current
+5 2 nick 12 11/11/2000 sn 7788 1500.00 fixed03
+
