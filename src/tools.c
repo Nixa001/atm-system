@@ -70,3 +70,27 @@ bool IsNameContained(char *name)
     }
     return false;
 }
+
+int countLines(const char *filename) 
+ { 
+     FILE *file = fopen(filename, "r"); 
+     if (file == NULL) 
+     { 
+         perror("Erreur lors de l'ouverture du fichier"); 
+         return -1; // Valeur de retour pour indiquer une erreur 
+     } 
+  
+     int lineCount = 1; 
+     char ch; 
+  
+     while ((ch = fgetc(file)) != EOF) 
+     { 
+         if (ch == '\n') 
+         { 
+             lineCount++; 
+         } 
+     } 
+  
+     fclose(file); 
+     return lineCount; 
+ }
