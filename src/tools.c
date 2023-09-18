@@ -19,6 +19,7 @@ bool isNumber(const char *chaine)
     return *fin == '\0';
 }
 
+
 bool isContainedInArray(char array[100][100], char *str)
 {
     for (int i = 0; i < 100; i++)
